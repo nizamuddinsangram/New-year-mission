@@ -1,0 +1,351 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    width: 1520px; 
+    margin: 0 auto; 
+  }
+  
+  .background-section {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('images/Banner\ Image.png');
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 16px;
+  }
+  
+  .centered-text {
+    text-align: center;
+    color: white;
+  }
+  
+  .centered-text h1 {
+   
+    color: #FFF;
+     text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+  }
+  
+  .centered-text p {
+    color: #FFF;
+
+   text-align: center;
+   font-family: Merriweather;
+   font-size: 32px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+  }
+  
+  /*  */
+  .allCategory-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .centered-content {
+    text-align: center;
+  }
+  
+  .centered-content h1 {
+       color: #F00;
+   text-align: center;
+   font-family: Inter;
+   font-size: 88px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+  }
+  
+  .centered-content img {
+    max-width: 100%;
+    height: auto;
+  }
+  .category-text{
+    color: #F00;
+
+   text-align: center;
+   font-family: Inter;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+  }
+  .category-heading {
+    color: #070211;
+
+   text-align: center;
+   font-family: Inter;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+  }
+  /*  */
+ 
+  /* .party-section {
+    height: 600px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('images/Vectorrr.png');
+    background-size: cover;
+    background-position: center;
+     display: flex;
+    align-items: center;
+
+  }
+  
+  .content {
+    max-width: 800px;
+    margin-left: 20px; 
+    color: white;
+  }
+  
+  .content h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .content p {
+    font-size: 1.2em;
+  } */
+  
+
+  .party-section {
+    background-image: url('images/Vectorrr.png');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+  }
+  
+  /* Style for the content inside the party section */
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Style for the text on the left side */
+  .text {
+    flex: 1;
+    margin-right: 20px;
+    color: white;
+  }
+  
+  .text h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the image on the right side */
+  .image {
+    flex: 1;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /*  */
+  /* .gift-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  } */
+  
+  .gift-info {
+    text-align: left;
+    margin-bottom: 20px;
+
+  }
+  
+  .photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .photo-item {
+    width: auto;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .photo-item img {
+    width: 100%;
+    height:450px;
+    transition: transform 0.3s ease;
+  }
+  
+  .photo-item:hover img {
+    transform: scale(1.1);
+  }
+  
+  /*  */
+  .subscription-section {
+    background-color: rgba(255, 0, 0, 0.05);
+    padding: 40px 0;
+    text-align: center;
+    height: 600px;
+  }
+  
+  .subscription-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .subscription-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .subscription-content h2 {
+    margin-bottom: 10px;
+  }
+  
+  .subscription-content p {
+    margin-bottom: 20px;
+  }
+  
+  .subscription-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .email-input {
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .subscription-form button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscription-form button:hover {
+    background-color: #cc0000;
+  }
+  /* footer design */
+  .footer-section {
+    background: #070211;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .left-content,
+  .right-content,
+  .center-content,
+  .subscribe-content {
+    margin-bottom: 10px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px auto;
+    width: 80%;
+  }
+  
+  .icon-set {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon-set img {
+    margin: 0 10px;
+  }
+  
+  .subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .subscribe-form input[type="email"],
+  .subscribe-form button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .subscribe-form input[type="email"] {
+    width: 250px;
+    margin-right: 10px;
+  }
+  
+  .subscribe-form button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe-form button:hover {
+    background-color: #cc0000;
+  }
+  
+  /* bonus section  */
+  .best-offer-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0;
+  }
+  
+  .left-content,
+  .right-content {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .center-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .red-border {
+    border: 3px solid red;
+    border-radius: 50%;
+  }
+  
+  .offer-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .right-content img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+  }
+  
