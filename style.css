@@ -50,6 +50,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 120px;
     
   }
   
@@ -93,49 +94,24 @@ body {
   }
   /*  */
  
-  /* .party-section {
-    height: 600px;
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('images/Vectorrr.png');
-    background-size: cover;
-    background-position: center;
-     display: flex;
-    align-items: center;
-
-  }
-  
-  .content {
-    max-width: 800px;
-    margin-left: 20px; 
-    color: white;
-  }
-  
-  .content h2 {
-    font-size: 3em;
-    margin-bottom: 10px;
-  }
-  
-  .content p {
-    font-size: 1.2em;
-  } */
-  
-
   .party-section {
     background-image: url('images/Vectorrr.png');
     background-size: cover;
     background-position: center;
     padding: 50px;
+    border-radius: 10px;
   }
   
-  /* Style for the content inside the party section */
+  
   .content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 1320px;
     margin: 0 auto;
   }
   
-  /* Style for the text on the left side */
+  
   .text {
     flex: 1;
     margin-right: 20px;
@@ -143,11 +119,29 @@ body {
   }
   
   .text h2 {
-    font-size: 2em;
-    margin-bottom: 10px;
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-style: normal;
+font-weight: 900;
+line-height: 88px; /* 137.5% */
+letter-spacing: 7.04px;
+  }
+  .text p{
+    color: rgba(255, 255, 255, 0.80);
+
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+  }
+  .text button{
+   background-color: #070211;
+   color: #fff;
+   border-radius: 10px;
   }
   
-  /* Style for the image on the right side */
   .image {
     flex: 1;
   }
@@ -158,17 +152,42 @@ body {
     display: block;
   }
 
-  /*  */
-  /* .gift-section {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  } */
+  /* another section */
+ 
   
   .gift-info {
     text-align: left;
     margin-bottom: 20px;
+    margin-left: 110px;
 
+  }
+  .gift-info h4{
+    color: #F00;
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+  .gift-info h3{
+    color: #070211;
+
+font-family: Merriweather;
+font-size: 40px;
+font-style: normal;
+font-weight: 900;
+/* line-height: normal; */
+text-transform: capitalize;
+  }
+  .gift-info p{
+    color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
   }
   
   .photo-grid {
@@ -176,6 +195,7 @@ body {
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
+    margin-bottom: 120px;
   }
   
   .photo-item {
@@ -195,12 +215,13 @@ body {
     transform: scale(1.1);
   }
   
-  /*  */
+  /*  section*/
   .subscription-section {
     background-color: rgba(255, 0, 0, 0.05);
     padding: 40px 0;
     text-align: center;
-    height: 600px;
+    height: 500px;
+    
   }
   
   .subscription-content {
@@ -209,17 +230,34 @@ body {
   }
   
   .subscription-content img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
+    width: 150px;
+height: 150px;
+flex-shrink: 0;
   }
   
   .subscription-content h2 {
     margin-bottom: 10px;
+    color: #070211;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
   }
   
   .subscription-content p {
     margin-bottom: 20px;
+    color: rgba(7, 2, 17, 0.60);
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
   }
   
   .subscription-form {
@@ -233,6 +271,9 @@ body {
     padding: 10px;
     font-size: 16px;
     margin-right: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
   }
   
   .subscription-form button {
@@ -243,6 +284,9 @@ body {
     padding: 10px 20px;
     font-size: 16px;
     transition: background-color 0.3s ease;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
   }
   
   .subscription-form button:hover {
@@ -254,18 +298,32 @@ body {
     padding: 20px;
     text-align: center;
     color: #fff;
+    margin-top: 120px;
   }
-  
+  /*  */
+  .footer{
+    display: flex;
+    justify-content: space-between;
+  }
   .footer-content {
     max-width: 1200px;
     margin: 0 auto;
   }
   
-  .left-content,
-  .right-content,
-  .center-content,
+  .left-footer,
+  .right-footer,
+  .center-footer,
   .subscribe-content {
     margin-bottom: 10px;
+  }
+  .left-footer{
+    color: #FFF;
+
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
   }
   
   hr {
@@ -321,16 +379,42 @@ body {
     padding: 40px 0;
   }
   
-  .left-content,
-  .right-content {
-    flex: 1;
-    text-align: center;
+  .left-content .left-content-heading {
+    color: #F00;
+
+text-align: left;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
   }
+  .left-content h1{
+    color: #070211;
+
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+  }
+  .left-content .left-content-desc{
+    color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+  }
+
   
   .center-content {
     flex: 1;
     display: flex;
     justify-content: center;
+    
   }
   
   .red-border {
@@ -342,10 +426,30 @@ body {
     max-width: 100%;
     height: auto;
   }
-  
+  .right-content .year {
+    color: #F00;
+
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+  .right-content p{
+    color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px
+  }
   .right-content img {
     margin-top: 20px;
     max-width: 100%;
     height: auto;
+    
   }
-  
+  .right-content{
+    text-align: left;
+  }
